@@ -1,10 +1,14 @@
-@import "./styles/bootstrap.min.css";
-@import "./styles/header.css";
-@import "./styles/footer.css";
-@import "./styles/about.css";
-@import "./styles/contact.css";
-@import "./styles/landing/hero.css";
-@import "./styles/landing/content.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "index.css";
+@import "about.css";
+@import "contact.css";
+@import "header.css";
+@import "footer.css";
+@import "blog.css";
+@import "blogpost.css";
+@import "404.css";
+@import "hero.css";
+@import "content.css";
 
 body {
   font-weight: 450;
@@ -16,25 +20,6 @@ body {
   --link-secondary: #3182ce;
   --link-tertiary: #63b3ed;
   --text-on-link: #fff;
-}
-body.light {
-  --primary: #fff;
-  --secondary: #f7fafc;
-  --tertiary: #e2e8f0;
-  --complement: #ebf8ff;
-  --extra: #ededed;
-  --base: #000;
-  --contrast: #2d3748;
-}
-body.dark {
-  -webkit-font-smoothing: antialiased;
-  --primary: #000;
-  --secondary: #111;
-  --tertiary: #1b1c1e;
-  --complement: #00132c;
-  --extra: #202229;
-  --base: #fff;
-  --contrast: #e5e5e5;
 }
 body ::selection {
   color: white;
@@ -80,7 +65,6 @@ body .main-button {
   font-weight: bolder;
   transition: opacity 0.5s ease-in-out;
   padding: 1rem 0.75rem;
-  margin: 0 0.3rem;
 }
 body .main-button:hover {
   opacity: 0.7;
@@ -88,6 +72,25 @@ body .main-button:hover {
 body .main-button:active {
   background-color: var(--link-secondary) !important;
   border-color: transparent !important;
+}
+body.light {
+  --primary: #fff;
+  --secondary: #f7fafc;
+  --tertiary: #e2e8f0;
+  --complement: #ebf8ff;
+  --extra: #ededed;
+  --base: #000;
+  --contrast: #2d3748;
+}
+body.dark {
+  -webkit-font-smoothing: antialiased;
+  --primary: #000;
+  --secondary: #111;
+  --tertiary: #1b1c1e;
+  --complement: #00132c;
+  --extra: #202229;
+  --base: #fff;
+  --contrast: #e5e5e5;
 }
 section.page404 {
   min-height: 85vh;
@@ -125,4 +128,14 @@ section.page404 .list-group .list-group-item {
     border-style: none;
   }
 }
-
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: var(--tertiary);
+  border-radius: 30%;
+}
+a {
+  text-decoration: none;
+}

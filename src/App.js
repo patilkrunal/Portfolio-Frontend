@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
-function App() {
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+import { LandingPage } from "./pages/LandingPage";
+import { Blogs } from "./pages/Blogs";
+import { AboutPage } from "./pages/AboutPage";
+import { ContactPage } from "./pages/ContactPage";
+
+import "./styles/index.css";
+import "./styles/bootstrap.min.css";
+
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <Header />
+      <Routes>
+        <Route path="/" exact element={<LandingPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route>Not Found</Route>
+      </Routes>
+      <Footer />
+    </HashRouter>
   );
-}
+};
 
 export default App;
