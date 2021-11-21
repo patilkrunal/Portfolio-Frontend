@@ -1,7 +1,8 @@
 import React from "react";
-// import SEO from "../components/SEO";
+import SEO from "../components/SEO";
 import Typing from "react-typing-animation";
 import "../styles/about.css";
+import photo from "../images/about.jpg";
 
 export const AboutPage = ({ data }) => (
   <>
@@ -68,14 +69,11 @@ export const AboutPage = ({ data }) => (
 
           {/* + Image */}
           <div className="col-lg-6 my-auto mx-auto">
-            <img
-              src="http://getsvision.com/images/inner-page-about-img.jpg"
-              alt="About page"
-              className="about-img-wrapper"
-            />
+            <img src={photo} alt="About page" className="about-img-wrapper" />
           </div>
           {/* - Image */}
 
+          {/* 
           <div className="col-lg-7">
             <div className="card">
               <div className="card-body">
@@ -217,7 +215,6 @@ export const AboutPage = ({ data }) => (
             </div>
           </div>
 
-          {/* + Card */}
           <div className="col-lg-7 my-auto">
             <div className="card shadow-sm">
               <div className="card-body">
@@ -237,7 +234,7 @@ export const AboutPage = ({ data }) => (
               </div>
             </div>
           </div>
-          {/* - Card */}
+          */}
         </div>
       </div>
     </section>

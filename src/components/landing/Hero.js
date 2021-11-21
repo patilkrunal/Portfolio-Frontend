@@ -3,6 +3,7 @@ import React from "react";
 import Links from "../links";
 import { Link } from "react-router-dom";
 import "../../styles/landing/hero.css";
+import profilePhoto from "../../images/photo.jpg";
 
 export const Hero = () => {
   return (
@@ -48,8 +49,8 @@ export const Hero = () => {
                 <div className="card-body">
                   <div className="icon">
                     <img
-                      src="https://st3.depositphotos.com/15648834/17930/v/1600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"
-                      style={{ width: "5rem", height: "5rem" }}
+                      src={profilePhoto}
+                      style={{ width: "5.5rem", height: "5.5rem" }}
                       alt="Hero Icon"
                     />
                   </div>

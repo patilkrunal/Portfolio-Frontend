@@ -39,18 +39,18 @@ export const Footer = () => {
                 <FontAwesomeIcon icon={faArrowUp} />
               </button>
             </li>
-            <li className="list-inline-item mr-4" alt="site title">
-              Awesome creation by her highness 🙌&nbsp;
+            <li className="list-inline-item mx-2" alt="site title">
+              Theme credits 🙌
               <a
                 href="https://github.com/gmlunesa"
                 target="_blank"
                 rel="noreferrer"
               >
-                GMLUNESA
+                gmlunesa
               </a>
-              &nbsp;🙌
+              🙌
             </li>
-            <li className="list-inline-item mr-4">
+            <li className="list-inline-item mx-2">
               <a
                 href="mailto:patilkrunal11.kp@gmail.com"
                 target="_blank"
@@ -60,7 +60,7 @@ export const Footer = () => {
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>
             </li>
-            <li className="list-inline-item mr-4">
+            <li className="list-inline-item mx-2">
               <a
                 href="https://github.com/patilkrunal"
                 target="_blank"
@@ -70,7 +70,7 @@ export const Footer = () => {
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </li>
-            <li className="list-inline-item mr-4">
+            <li className="list-inline-item mx-2">
               <a
                 href="https://linkedin.com/in/patilkrunal"
                 target="_blank"
@@ -80,7 +80,7 @@ export const Footer = () => {
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
             </li>
-            <li className="list-inline-item">
+            <li className="list-inline-item mx-2">
               <a
                 href="https://twitter.com/_patilkrunal/"
                 target="_blank"

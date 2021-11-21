@@ -57,11 +57,11 @@ export const Header = () => {
           id="navbarResponsive"
         >
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item my-auto ml-2">
+            {/* <li className="nav-item my-auto ml-2">
               <Link className="nav-link" to="/blogs">
                 Blog
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item my-auto ml-2">
               <Link className="nav-link" to="/about">
                 About

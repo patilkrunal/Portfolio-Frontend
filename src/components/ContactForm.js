@@ -34,7 +34,6 @@ export const ContactForm = () => {
           </span>
           Got any ideas?
         </h2>
-        <p className="text-muted">Let's talk!</p>
 
         <div className="row">
           <div className="col-md-8 my-auto">
