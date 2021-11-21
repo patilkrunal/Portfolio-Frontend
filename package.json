@@ -47,5 +47,6 @@
     "react-headroom": "^3.2.0",
     "react-router-dom": "^6.0.2",
     "react-typing-animation": "^1.6.2"
-  }
+  },
+  "homepage": "https://patilkrunal.github.io/Portfolio-Frontend/"
 }
