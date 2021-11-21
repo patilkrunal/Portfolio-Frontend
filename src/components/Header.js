@@ -76,8 +76,8 @@ export const Header = () => {
               <label className="theme-toggler nav-link">
                 <input
                   type="checkbox"
-                  class="theme-toggle"
-                  onClick={(e) => toggleTheme(e)}
+                  className="theme-toggle"
+                  onChange={(e) => toggleTheme(e)}
                   checked={theme === "dark"}
                 />
                 {theme === "dark" ? (

@@ -1,6 +1,6 @@
 import React from "react";
 // import SEO from "../components/SEO";
-import SubscribeForm from "../components/subscribe";
+import { SubscribeForm } from "../components/subscribe";
 import blogs from "../data/blogs.json";
 import "../styles/blog.css";
 
@@ -16,7 +16,7 @@ export const Blogs = () => {
         <div>
           {blogs.map(({ description, frontmatter, fields, link, id }) => (
             <>
-              <a href={link} key={fields.slug}>
+              <a href={fields.slug} key={fields.slug}>
                 <div className="card">
                   <div className="card-body">
                     <div className="col-8" key={id}>

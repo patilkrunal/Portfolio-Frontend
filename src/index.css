@@ -1,17 +1,17 @@
 @import "./styles/bootstrap.min.css";
-@import "./styles/header.css";
+/* @import "./styles/header.css";
 @import "./styles/footer.css";
 @import "./styles/about.css";
 @import "./styles/contact.css";
 @import "./styles/landing/hero.css";
-@import "./styles/landing/content.css";
+@import "./styles/landing/content.css"; */
 
 body {
-  font-weight: 450;
+  /* font-weight: 450; */
   color: var(--base);
   background-color: var(--primary);
   transition: color 0.2s ease-in, background-color 0.2s ease-in !important;
-  -webkit-tap-highlight-color: transparent;
+  /* -webkit-tap-highlight-color: transparent; */
   --link-primary: #5a67d8;
   --link-secondary: #3182ce;
   --link-tertiary: #63b3ed;
@@ -40,27 +40,10 @@ body ::selection {
   color: white;
   background-color: var(--link-tertiary);
 }
-body h1 {
-  font-weight: bolder;
-  color: var(--base);
-}
-body h2 {
-  font-weight: bold;
-  color: var(--base);
-}
-body h3 {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: var(--base);
-}
 body h4 {
   font-size: 1rem;
   color: var(--contrast);
   opacity: 0.65;
-}
-body p {
-  font-size: 1.15rem;
-  color: var(--contrast);
 }
 body a {
   color: var(--link-primary);
@@ -125,4 +108,3 @@ section.page404 .list-group .list-group-item {
     border-style: none;
   }
 }
-

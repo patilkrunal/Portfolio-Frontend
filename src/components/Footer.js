@@ -33,7 +33,7 @@ export const Footer = () => {
             >
               <button
                 type="button"
-                class="btn btn-floating btn-sm"
+                className="btn btn-floating btn-sm"
                 id="btn-back-to-top"
               >
                 <FontAwesomeIcon icon={faArrowUp} />
